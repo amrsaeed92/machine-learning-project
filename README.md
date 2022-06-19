@@ -62,13 +62,13 @@ git remote -v
 ```
 
 To setup CI/CD pipeline in heroku we need 3 information
-1. HEROKU_EMAIL = anishyadav7045075175@gmail.com
+1. HEROKU_EMAIL = amr.alkamel.m3@gmail.com
 2. HEROKU_API_KEY = <>
-3. HEROKU_APP_NAME = ml-regression-app
+3. HEROKU_APP_NAME = ml-regression-model
 
 BUILD DOCKER IMAGE
 ```
-docker build -t <image_name>:<tagname> .
+docker build -t <image_name>:<any tagname> .
 ```
 > Note: Image name for docker must be lowercase
 
@@ -99,27 +99,25 @@ docker stop <container_id>
 python setup.py install
 ```
 
-teacher github repo
-```
-https://github.com/avnyadav/machine_learning_project
-```
+[teacher github repo] (https://github.com/avnyadav/machine_learning_project)
+
 
 Pickle
 ```
-first: import pickle
-it is used to save any kind of class objects. 
-Saving object to a file is called seriliazation (pickle.dump())
-Loading any object from a file is called deseriliazation
+import pickle
 ```
+>it is used to save any kind of class objects. 
+>Saving object to a file is called seriliazation (pickle.dump())
+>Loading any object from a file is called deseriliazation
+
 
 Hash Data Integrity
-```
-It is used to check data versioning, to check if data has been changed or not. 
-You basically generate a hash value for your data, then after sometime you well check if this value has been changed, if so the data is also changed.
-```
+
+> It is used to check data versioning, to check if data has been changed or not. 
+>You basically generate a hash value for your data, then after sometime you well check if this value has been changed, if so the data is also changed.
+
 
 Artifact
-```
-It is defined for all components separately.
-It is the output of each component and it is named based on the components names.
-```
+
+> It is defined for all components separately.
+> It is the output of each component and it is named based on the components names.
