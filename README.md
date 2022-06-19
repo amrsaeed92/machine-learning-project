@@ -115,4 +115,11 @@ Loading any object from a file is called deseriliazation
 Hash Data Integrity
 ```
 It is used to check data versioning, to check if data has been changed or not. 
+You basically generate a hash value for your data, then after sometime you well check if this value has been changed, if so the data is also changed.
+```
+
+Artifact
+```
+It is defined for all components separately.
+It is the output of each component and it is named based on the components names.
 ```
