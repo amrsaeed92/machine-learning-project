@@ -24,6 +24,16 @@ conda activate venv
 ```
 pip install -r requirements.txt
 ```
+Clone a repo from github
+```
+git clone cloning_url
+```
+
+if fetal error occur while cloning a repo
+```
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+```
 
 To Add files to git
 ```
@@ -36,6 +46,7 @@ git add <file_name>
 ```
 
 > Note: To ignore file or folder from git we can write name of file/folder in .gitignore file
+
 
 To check the git status 
 ```
