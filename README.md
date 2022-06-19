@@ -99,7 +99,7 @@ docker stop <container_id>
 python setup.py install
 ```
 
-[teacher github repo] (https://github.com/avnyadav/machine_learning_project)
+[teacher github repo](https://github.com/avnyadav/machine_learning_project)
 
 
 Pickle
