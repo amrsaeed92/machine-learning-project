@@ -99,9 +99,6 @@ docker stop <container_id>
 python setup.py install
 ```
 
-[teacher github repo](https://github.com/avnyadav/machine_learning_project)
-
-
 Pickle
 ```
 import pickle
@@ -124,4 +121,9 @@ Artifact
 
 Config
 > It is created separately for each component and it expresses the input.
-> The artifact of the previous component is considered as the config of the next component. 
+> The artifact of the previous component is considered as the config of the next component.
+
+
+
+
+[Avny Adav teacher github repo](https://github.com/avnyadav/machine_learning_project)
