@@ -119,5 +119,9 @@ Hash Data Integrity
 
 Artifact
 
-> It is defined for all components separately.
+> It is defined for all components separately and it expresses the output.
 > It is the output of each component and it is named based on the components names.
+
+Config
+> It is created separately for each component and it expresses the input.
+> The artifact of the previous component is considered as the config of the next component. 
